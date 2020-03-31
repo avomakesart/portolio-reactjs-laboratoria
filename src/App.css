@@ -7,6 +7,17 @@
   pointer-events: none;
 }
 
+.button-container {
+  margin: 150px;
+}
+
+.button-style {
+  padding: 10px;
+  border: 1px solid gray;
+  background: black;
+  color: white;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +43,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
